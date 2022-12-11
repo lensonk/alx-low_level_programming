@@ -1,9 +1,8 @@
 #include <stdio.h>
-int main(void)
+int main()
 {
 	/*String initialization*/
-puts("\"programming is like building a multilingual puzzle");
-      /* Print to std output */
-
-return (0);
+	puts("\"programming is like building a multilingual puzzle");
+	/* Print to std output */
+	return (0);
 }
