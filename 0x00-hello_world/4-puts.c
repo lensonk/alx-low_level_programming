@@ -1,15 +1,16 @@
 #include <stdio.h>
-
 /**
  * main-entry point
  *
  * description: print a string using puts function
  *
- * return: always return 0
+ * Return: always return 0
  */
 int main(void)
 {
-	/* String initialization */
+	/**
+	 *  String initialization
+	 */
 
 	puts("\"programming is like building a multilingual puzzle");
 	return (0);
