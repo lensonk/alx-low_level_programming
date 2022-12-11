@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main()
 {
-	/*String initialization*/
+	/* String initialization */
 	puts("\"programming is like building a multilingual puzzle");
-	/* Print to std output */
 	return (0);
 }
