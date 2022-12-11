@@ -2,6 +2,8 @@
 int main()
 {
 	/* String initialization */
-	puts("\"programming is like building a multilingual puzzlie\n");
+	char str[] = "\"programming is like building a multilingual puzzle";
+	puts(str);
+
 	return (0);
 }
