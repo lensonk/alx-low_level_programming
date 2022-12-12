@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- * main-entry point
- *
- * description: prints 'with proper grammer, but the outcome is a piece of art
- *
- * Return: always return 0
- */
+* main-entry point
+*
+* description: prints 'with proper grammer, but the outcome is a piece of art
+*
+* Return: always return 0
+*/
 int main(void)
 {
 	/**
@@ -13,6 +13,7 @@ int main(void)
 	 * followed by a new line
 	 * using printf function
 	 */
-	printf("with proper grammer, but the outcome is a piece of art,");
+	printf("with proper grammer\", but the outcome is a piece of art\",");
+
 	return (0);
 }
