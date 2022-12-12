@@ -13,6 +13,6 @@ int main(void)
 	 * followed by a new line
 	 * using printf function
 	 */
-	printf("With proper grammer, but the outcome is a piece of are,\n");
+	printf("with proper grammer, but the outcome is a piece of art,\n");
 	return (0);
 }
