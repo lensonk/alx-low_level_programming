@@ -1,14 +1,14 @@
 #include <stdio.h>
-	/**
-	 * main-Entry point
-	 *
-	 * Description: print the size of various data types
-	 * data type character, integer, long integer, long long
-	 * integer and float.
-	 * for diferent computers depending on th compiller
-	 *
-	 * Return: always 0
-	 */
+/**
+* main-Entry point
+*
+* Description: print the size of various data types
+* data type character, integer, long integer, long long
+* integer and float.
+* for diferent computers depending on th compiller
+*
+* Return: always 0
+*/
 int main(void)
 {
 	/**
