@@ -7,14 +7,12 @@
 *
 * Description:print random number whether negative or positive
 *
-* return:always 0
+* Return:always 0
 *
 */
 
 int main(void)
 {
-	/* declaration */
-
 	int n;
 
 	srand(time(0));
@@ -22,15 +20,15 @@ int main(void)
 	{
 	if (n > 0)
 	{
-	printf("is positive %d\n", n);
+	printf("is positive %d\n");
 	}
 	else if (n < 0)
 	{
-	printf("is negative %d\n", n);
+	printf("is negative %d\n");
 	}
 	else
 	{
-	printf("is zero %d\n", n);
+	printf("is zero %d\n");
 	}
 
 	return (0);
