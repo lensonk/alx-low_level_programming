@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main-Entry
+ * print_alphabet-Entry
  *
  * Description: print the alphabets in lower case followed by a new line
  * can use putchar only twice
@@ -13,7 +13,7 @@ void print_alphabet(void)
 	/* variable defination */
 		char i = 'a';
 
-		while (i < 'z')
+		while (i <= 'z')
 
 		{
 		putchar(i);
