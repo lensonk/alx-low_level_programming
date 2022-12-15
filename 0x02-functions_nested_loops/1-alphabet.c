@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * main-Entry
  *
@@ -7,10 +8,8 @@
  *
  * Return:always 0
  */
-
-int main(void)
+void print_alphabet(void)
 {
-
 	/* variable defination */
 		char i = 'a';
 
@@ -24,5 +23,4 @@ int main(void)
 		{
 		putchar('\n');
 		}
-	return (0);
 }
