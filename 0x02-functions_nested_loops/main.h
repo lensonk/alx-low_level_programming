@@ -1,1 +1,2 @@
-int putchar(int character)
+#include <stdio.h>
+int putchar(int character);

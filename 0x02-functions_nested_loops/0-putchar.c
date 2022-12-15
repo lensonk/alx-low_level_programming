@@ -10,19 +10,17 @@
 
 int main(void)
 {
-	char str = "_putchar";
-	int i;
+	char str[8] = "_putchar";
+	int i = 0;
 
-	str = i;
-
-	while (i != '\0')
+	while (i < 8)
 	{
-	putchar(str);
+	putchar(i);
 	i++;
 	}
 
 	{
-	putchar('\n')
+	putchar('\n');
 	}
 	return (0);
 }
