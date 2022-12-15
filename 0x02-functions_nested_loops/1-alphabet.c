@@ -12,11 +12,9 @@ int main(void)
 {
 
 	/* variable defination */
-		char i;
+		char i = 'a';
 
-		i = 97;
-
-		while (i < 122)
+		while (i < 'z')
 
 		{
 		putchar(i);
