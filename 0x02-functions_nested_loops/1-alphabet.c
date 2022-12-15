@@ -7,18 +7,24 @@
  *
  * Return:always 0
  */
+
 int main(void)
 {
-	char a = 'a';
 
-	while (a <= 'z')
+	/* variable defination */
+		char i;
 
-	{
-	putchar(a);
-	a++;
-	}
-	{
-	putchar('\n');
-	}
+		i = 97;
+
+		while (i < 122)
+
+		{
+		putchar(i);
+		i++;
+		}
+
+		{
+		putchar('\n');
+		}
 	return (0);
 }
