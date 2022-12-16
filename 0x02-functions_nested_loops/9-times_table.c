@@ -28,9 +28,13 @@ void times_table(void)
 	{
 	putchar('\n');
 	}
+	for (y = 0; y <= 9; y++)
+
+	{
 	putchar(n / 10);
 	putchar((n % 10) + '0');
-	y++;
+	}
 	x++;
+	y++;
 	}
 }
