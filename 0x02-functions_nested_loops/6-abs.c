@@ -10,7 +10,12 @@
 int _abs(int i)
 {
 
-	i == (i - 0);
+	i = (i - 0);
+
+	if (i > 0)
 
 	return (i);
+
+	else
+	return (0);
 }
