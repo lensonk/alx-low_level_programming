@@ -5,7 +5,7 @@
  *
  * Description: prints nine times table
  *
- * Returns: always 0
+ * Returns: always 0i
  */
 void times_table(void)
 {
@@ -16,11 +16,11 @@ void times_table(void)
 	x = 0;
 	y = 0;
 
-	while (x <= 9)
+	while (n <= 81)
 	{
 	for (x = 0; x <= 9; x++)
 	{
-	n = (x * y);
+	n = x*y;
 	putchar(n / 10);
 	putchar((n % 10) + '0');
 	putchar(',');
