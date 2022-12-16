@@ -7,4 +7,6 @@ int putchar(int character);
 void print_alphabet(void);
 void print_alphabet_x10(void);
 int print_sign(int);
+putchar(int);
+putchar(char);
 #endif
