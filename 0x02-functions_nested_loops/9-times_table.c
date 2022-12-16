@@ -16,23 +16,21 @@ void times_table(void)
 	x = 0;
 	y = 0;
 
-	while (y <= 9)
+	while (y <= 9 && x <= 9)
 	{
 	for (x = 0; x <= 9; x++)
 	{
-		n = x * y;
-	putchar(n/10);
-	putchar((n%10) + '0');
+	n = x * y;
+	putchar(n / 10);
+	putchar((n % 10) + '0');
 	putchar(',');
 	}
 	{
 	putchar('\n');
 	}
+	putchar(n / 10);
+	pitchar((n % 10) + '0');
 	y++;
-	}
-
-	for (y = 0; y <= 9; y++)
-	{
-	putchar((n%10) + '0');
+	x++;
 	}
 }
