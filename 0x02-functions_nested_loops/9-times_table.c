@@ -16,21 +16,18 @@ void times_table(void)
 	x = 0;
 	y = 0;
 
-	while (n <= 81)
+	n = x * y;
+
+	while (n != 80)
+
 	{
 	for (x = 0; x <= 9; x++)
 	{
-	n = x*y;
 	putchar(n / 10);
-	putchar((n % 10) + '0');
+	putchar((n % 10 + '0');
 	putchar(',');
 	}
-	{
 	putchar('\n');
-	}
-	putchar(n/10);
-	putchar((n % 10) + '0');
-	x++;
 	y++;
 	}
 }
