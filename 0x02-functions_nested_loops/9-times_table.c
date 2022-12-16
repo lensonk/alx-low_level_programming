@@ -21,14 +21,14 @@ void times_table(void)
 	{
 	for (x = 0; x <= 9; x++)
 	{
-	putchar(n / 10);
+	putchar((n / 10) + '0');
 	putchar((n % 10) + '0');
 	if (x < 9)
 	putchar(',');
 	}
 	putchar('\n');
 	n = x * y;
-	putchar(n / 10);
+	putchar((n / 10) + '0');
 	putchar((n % 10) + '0');
 	y++;
 	}
