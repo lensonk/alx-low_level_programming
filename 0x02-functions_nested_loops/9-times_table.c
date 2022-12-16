@@ -13,6 +13,9 @@ void times_table(void)
 	int x;
 	int n = (y * x);
 
+	x = 0;
+	y = 0;
+
 	for (x = 0; x <= 9; x++)
 	{
 		putchar(n);
