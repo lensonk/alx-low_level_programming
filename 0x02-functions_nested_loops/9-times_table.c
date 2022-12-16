@@ -28,6 +28,6 @@ void times_table(void)
 	if (x < 9)
 	putchar(',');
 	}
-	putchar('\n')
+	putchar('\n');
 	}
 }
