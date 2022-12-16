@@ -18,7 +18,7 @@ void times_table(void)
 
 	n = x * y;
 
-	while (y < 9)
+	while (n => 0 && n < 9)
 
 	{
 	for (x = 0; x <= 9; x++)
