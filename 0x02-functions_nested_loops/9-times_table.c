@@ -11,10 +11,11 @@ void times_table(void)
 {
 	int y;
 	int x;
-	int n = (y * x);
+	int n;
 
 	x = 0;
 	y = 0;
+	n = (y * x);
 
 	for (x = 0; x <= 9; x++)
 	{
