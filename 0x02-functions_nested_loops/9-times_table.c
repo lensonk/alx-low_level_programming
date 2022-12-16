@@ -21,8 +21,8 @@ void times_table(void)
 		n = x * y;
 	for (x = 0; x <= 9; x++)
 	{
-	putchar((n / 10) + '0');
-	putchar((n % 10) + '0');
+	putchar((n / 10);
+	putchar((n % 10) + '0''\n');
 	if (x < 9)
 	putchar(',');
 	}
