@@ -27,9 +27,6 @@ void times_table(void)
 	putchar(',');
 	}
 	putchar('\n');
-	n = x * y;
-	putchar((n / 10) + '0');
-	putchar((n % 10) + '0');
 	y++;
 	}
 }
