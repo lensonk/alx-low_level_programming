@@ -16,8 +16,6 @@ void times_table(void)
 	x = 0;
 	y = 0;
 
-	n = x * y;
-
 	while (y >= 0 && y <= 9)
 
 	{
@@ -27,9 +25,11 @@ void times_table(void)
 	putchar((n % 10) + '0');
 	if (x < 9)
 	putchar(',');
-	putchar(' ');
 	}
 	putchar('\n');
+	n = x * y;
+	putchar(n / 10);
+	putchar((n % 10) + '0');
 	y++;
 	}
 }
