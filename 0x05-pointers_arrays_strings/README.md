@@ -3,3 +3,4 @@
 # Return length of a string
 # print string to stdout
 # Print string reverse
+# Reverse a string
