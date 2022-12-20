@@ -4,3 +4,4 @@
 # print string to stdout
 # Print string reverse
 # Reverse a string
+# print  every other character
