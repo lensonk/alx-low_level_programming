@@ -7,3 +7,4 @@
 # print  every other character
 # print half of a string and new line
 # print n elements of an array
+# copy a string pointed to another pointed buffer
