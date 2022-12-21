@@ -5,3 +5,4 @@
 # Print string reverse
 # Reverse a string
 # print  every other character
+# print half of a string and new line
