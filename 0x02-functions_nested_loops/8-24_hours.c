@@ -21,14 +21,15 @@ void jack_bauer(void)
 			putchar(':');
 			_putchar('0');
 			_putchar(m);
+			putchar('\n');
 			}
 			else
 			{
 			_putchar(h);
 			putchar(':');
 			_putchar(m);
-			}
 			putchar('\n');
+			}
 		}
 	}
 		h++;
