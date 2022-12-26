@@ -13,7 +13,7 @@ void jack_bauer(void)
 
 	while (h < 23)
 	{
-		for (m = 0; m <= 59; m++)
+		while (m < 59)
 		{
 			if (m <= 9)
 			{
@@ -30,6 +30,7 @@ void jack_bauer(void)
 			_putchar(m);
 			putchar('\n');
 			}
+			m++;
 		}
 	}
 		h++;
