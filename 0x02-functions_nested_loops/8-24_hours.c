@@ -13,9 +13,11 @@ void jack_bauer(void)
 
 	while (h < 23)
 	{
+		m = 0;
+
 		while (m < 59)
 		{
-			if (m <= 9)
+			if (m < 10)
 			{
 			_putchar(h);
 			putchar(':');
