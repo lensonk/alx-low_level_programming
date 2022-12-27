@@ -22,10 +22,10 @@ void times_table(void)
 		for (y = 1; y < 9; y++)
 		{
 		n = x * y;
-
+ 
 		_putchar((n / 10) + '0');
 		_putchar((n % 10) + '0');
-		putchar('\n');
+		_putchar('\n');
 		}
 	}
 }
