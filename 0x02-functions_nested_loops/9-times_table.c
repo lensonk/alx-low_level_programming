@@ -18,10 +18,11 @@ void times_table(void)
 		for (y = 0; y <= 9; y++)
 		{
 		n = x * y;
-		{
+		
 		_putchar(',');
 		_putchar(' ');
 		if (y < 9)
+		{
 			_putchar(' ');
 
 		}
