@@ -10,12 +10,10 @@ void print_to_98(int n)
 {
 	int i;
 
-	for (i = n; i >= 0 && i <= 98; i++)
+	while(i < 98) 
 	{
-			putchar(i / 10);
-			putchar(i % 10 + '0');
-			putchar(',');
-			putchar(' ');
+	printf("%d, ", i);
+	i++;
 	putchar('\n');
 	}
 }
