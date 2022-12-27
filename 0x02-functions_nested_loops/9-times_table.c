@@ -20,9 +20,10 @@ void times_table(void)
 		n = x * y;
  
 		_putchar((n / 10) + '0');
-		_putchar((n % 10) + '0');
+		_putchar((n % 10);
 		if (y < 9)
 		_putchar(',');
+		_putchar(' ');
 		if(y >= 9)
 		_putchar('\n');
 		}
