@@ -25,18 +25,11 @@ void times_table(void)
 		n = y * x;
 
 		if (n <= 9)
-		{
 			_putchar(' ');
-
-		}
-
 		else
-		{
 		_putchar(n / 10 + '0');
 		_putchar(n % 10 + '0');
 		}
 		_putchar('\n');
-		}
-
 	}
 }
