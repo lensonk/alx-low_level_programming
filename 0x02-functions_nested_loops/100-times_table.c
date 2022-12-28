@@ -9,21 +9,27 @@ void print_times_table(int n)
 {
 	int i;
 	int t;
+	int j;
 
-	for (n = 0; n >= 0 && n <= 15; n++)
+	while (n >= 0 && n < 15)
+	{
+
+	for (j = 0; j <= n; j++)
 	{
 		putchar('0');
 
-	for (i = 1; i >= 1 && i <= 15; i++)
+	for (i = 1; i <= n; i++)
 	{
 		putchar(',');
 		putchar(' ');
 
-		t = n * i;
+		t = i * j;
 
 		putchar(t / 10 + '0');
 		putchar(t % 10 + '0');
 	}
 	putchar('\n');
+	}
+	n++;
 	}
 }
