@@ -36,10 +36,10 @@ void print_times_table(int n)
 		else if (t >= 10 && t <= 99)
 		{
 			putchar(t / 10 + '0');
+		}
 			putchar(t % 10 + '0');
 		}
-	}
-	putchar('\n');
-	}
+		putchar('\n');
+		}
 	}
 }
