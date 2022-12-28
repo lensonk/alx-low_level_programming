@@ -30,7 +30,7 @@ void print_times_table(int n)
 			putchar(' ');
 		if (t >= 100)
 		{
-		putchar(t / 10 + '0');
+		putchar(t / 100 + '0');
 		putchar(t % 10 + '0');
 		}
 		else if (t >= 10 && t <= 99)
