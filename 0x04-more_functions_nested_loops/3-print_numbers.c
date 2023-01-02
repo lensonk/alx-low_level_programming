@@ -15,4 +15,5 @@ void print_numbers(void)
 		_putchar(i / 10);
 		_putchar(i % 10);
 	}
+	_putchar('\n');
 }
