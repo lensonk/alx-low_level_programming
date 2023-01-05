@@ -3,5 +3,5 @@
 #include <stdio.h>
 
 void _puts_recursion(char *s);
-int _putchar(char);
+int _putchar(int);
 #endif
