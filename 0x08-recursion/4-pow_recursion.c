@@ -3,8 +3,9 @@
 /**
  * _pow_recursion- requrns the value of x raised to power of y
  * @x: integer
- * @y: power
- * return:int
+ * @y: power int
+ * return: int
+ * @(x, y-1): return value of _pow_recursion
  */
 
 int _pow_recursion(int x, int y)
