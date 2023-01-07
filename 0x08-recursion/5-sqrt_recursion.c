@@ -18,13 +18,13 @@ int _sqrt_recursion(int i, int n)
 	{
 	return (i);
 	}
+	else if (i * i > n)
+	{
+	return (_sqrt_recursion(i /2 , n));
+	}
 	else if (i * i < n)
 	{
 	return (_sqrt_recursion(i + 1, n));
-	}
-	else if (i * i > n)
-	{
-	return (_sqrt_recursion(i - 1, n));
 	}
 	else
 	{
