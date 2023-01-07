@@ -8,19 +8,18 @@
  *
  */
 
-int _sqrt_recursion(int n)
+int _sqrt_recursion(int i, int n)
 {
-	int i;
 
 	i = (0 + n) /2;
 
-	if (i * i <= n)
+	if ((i * i <= n) && ((i + 1) * (i + 1)) > n)
 	{
-		return ((i + n / i) / 2);
+	return (i);
 	}
-	else if (i * i > n)
+	else if (i * i < n)
 	{
-	return (i -1);
+	return _sqrt_recursion(i + 1, n);
 	}
 	else
 	{
