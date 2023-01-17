@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void)
+int main()
 {
 	printf("Name of the source file: %s\n", _FILE_);
 
