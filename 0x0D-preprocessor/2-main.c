@@ -1,8 +1,12 @@
 #include <stdio.h>
 
-int main()
+/**
+ * main-print the name of the source file
+ * Return: always 0
+ */
+int main(void)
 {
-	printf("Name of the source file: %s\n", _FILE_);
+	printf("%s\n", __FILE__);
 
 	return(0);
 }
