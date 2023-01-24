@@ -11,5 +11,4 @@ void print_name(char *name, void(*f)(char *c))
 {
 	if (name != NULL && f != NULL)
 		f(name);
-	_putchar('\n');
 }
